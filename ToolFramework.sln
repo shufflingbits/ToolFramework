@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tool", "Tool\Tool.csproj", "{1FCCA9A1-9938-48D9-9A59-A0952D2EAB97}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Renderer\Renderer.vcxproj", "{05C945DF-C5C5-467F-93B5-BB6C8870F37D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RendererInterop", "RendererInterop\RendererInterop.vcxproj", "{7E5FEBE9-4668-458D-AC93-3107764D2C03}"
+	ProjectSection(ProjectDependencies) = postProject
+		{05C945DF-C5C5-467F-93B5-BB6C8870F37D} = {05C945DF-C5C5-467F-93B5-BB6C8870F37D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FCCA9A1-9938-48D9-9A59-A0952D2EAB97}.Debug|x86.ActiveCfg = Debug|x86
+		{1FCCA9A1-9938-48D9-9A59-A0952D2EAB97}.Debug|x86.Build.0 = Debug|x86
+		{1FCCA9A1-9938-48D9-9A59-A0952D2EAB97}.Release|x86.ActiveCfg = Release|x86
+		{1FCCA9A1-9938-48D9-9A59-A0952D2EAB97}.Release|x86.Build.0 = Release|x86
+		{05C945DF-C5C5-467F-93B5-BB6C8870F37D}.Debug|x86.ActiveCfg = Debug|Win32
+		{05C945DF-C5C5-467F-93B5-BB6C8870F37D}.Debug|x86.Build.0 = Debug|Win32
+		{05C945DF-C5C5-467F-93B5-BB6C8870F37D}.Release|x86.ActiveCfg = Release|Win32
+		{05C945DF-C5C5-467F-93B5-BB6C8870F37D}.Release|x86.Build.0 = Release|Win32
+		{7E5FEBE9-4668-458D-AC93-3107764D2C03}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E5FEBE9-4668-458D-AC93-3107764D2C03}.Debug|x86.Build.0 = Debug|Win32
+		{7E5FEBE9-4668-458D-AC93-3107764D2C03}.Release|x86.ActiveCfg = Release|Win32
+		{7E5FEBE9-4668-458D-AC93-3107764D2C03}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
